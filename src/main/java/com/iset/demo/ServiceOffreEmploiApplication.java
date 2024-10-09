@@ -2,12 +2,11 @@ package com.iset.demo;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.iset.demo.Repository.OffreRepository;
 import com.iset.demo.entities.Offre;
 
-@SpringBootApplication
+
 public class ServiceOffreEmploiApplication implements CommandLineRunner {
     @Autowired
     OffreRepository offreRepository;
